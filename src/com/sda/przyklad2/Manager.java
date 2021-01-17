@@ -25,7 +25,6 @@ public class Manager extends Employee {
                 +"i mam "
                 +getAge()
                 +" lat "+ " zarabiam: "+getSalary());
-
     }
 
 }
