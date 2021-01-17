@@ -12,7 +12,7 @@ public class Main {
         tygrys.setIloscLap(5);
         Zwierze zwierze = new Tygrys();
         Zwierze zwierze1 = new Zwierze(2);
-        if (zwierze1 instanceof Tygrys)
+        System.out.println("sprawdzam "+(zwierze instanceof Tygrys));
 
         System.out.println();
         Tygrys tygrys1 = (Tygrys) zwierze;
